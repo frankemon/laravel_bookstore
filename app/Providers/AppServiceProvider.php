@@ -26,3 +26,7 @@ class AppServiceProvider extends ServiceProvider
         //
     }
 }
+
+
+//  if($this->app->envionrment('production)) { change production to review if css bugs
+//     \URL::forceScheme('https'); }
